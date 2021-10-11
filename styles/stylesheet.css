@@ -1,3 +1,121 @@
-p {
-    color:red;
+* { 
+   
+    background-color: #1b1c1b;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 1015;
+    height: 56;
+    border-color: red;
+    justify-content:space-between;
+    padding-top:0px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+
+.barrasLogo{
+    display: flex; 
+    background-color: black; 
+    padding-right: 50px;
+    
+     
+}
+
+
+#barras {
+    padding: 10px;
+    align-self: center;
+    background-color: black;     
+}
+
+.buscar {
+    display: flex;
+    background-color: black;
+    width: 589;
+    
+    padding-right: 10px;
+    
+}
+
+#busqueda{
+    width: 433px;
+    height: 40px;
+    align-self: center;
+}
+
+#tache {
+    align-self: center;
+    background-color:#1b1c1b;
+    width: 25px;
+    height: 25px;
+    padding: 7.5px;
+}
+
+#lupa {
+    align-self: center;
+    background-color: #333336;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+
+#mic {
+    align-self: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+
+}
+
+.user{
+    
+    display: flex;
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: flex-end;
+    flex-grow: 2;
+
+
+}
+
+#grid {
+    align-self: center;
+}
+
+#dots {
+    align-self: center;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.signin {
+    display: flex;
+    border: 1px solid royalblue;
+    height: 40px;
+    align-self: center;
+    font-family: sans-serif;
+    border-radius: 2px;
+}
+
+#sign {
+    align-self: center;
+    padding-right: 20px;
+    color: royalblue;
+    padding-left: 20px;
+    
+}
+#face {
+    align-self:center;
+    padding-left: 20px;
 }
